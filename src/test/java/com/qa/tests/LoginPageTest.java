@@ -30,7 +30,7 @@ public class LoginPageTest extends Base  {
 	@Test(priority=1)
 	public void validateLoginTitleTest() {
 		String title = loginPage.validateLoginTitle();
-		Assert.assertEquals(title, "CounselLin","Wrong title observed");
+		Assert.assertEquals(title, "CounselLink","Wrong title observed");
 	}
 	
 	

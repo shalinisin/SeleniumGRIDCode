@@ -8,9 +8,7 @@
     <classes>
       <class name="com.qa.tests.LoginPageTest">
         <methods>
-          <include name="validateLoginTest"/>
           <include name="tearDown"/>
-          <include name="validateLogoTest"/>
           <include name="setUp"/>
           <include name="validateLoginTitleTest"/>
         </methods>
